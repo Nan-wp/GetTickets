@@ -1,5 +1,5 @@
 import './App.css'
-
+import Card from './component/Card'
 
 export default  function App() {
 
@@ -68,8 +68,8 @@ export default  function App() {
            <button className='font-semibold rounded-md p-4 bg-blue-700 text-white hover:bg-blue-400'>Find Tickgets</button>
         </div>
       </div>
-
   </header>
+  <Card/>
 </div>
 
   )
