@@ -1,32 +1,78 @@
 import './App.css'
 
-function App() {
+
+export default  function App() {
 
   return (
-    <div>
-      <header className='flex static'>
-       <div className='max-w-full contrast-50 bg-no-repeat bg-center bg-fixed'>
-         <img src ='https://images.pexels.com/photos/1666816/pexels-photo-1666816.jpeg?cs=srgb&dl=pexels-shelaghmurphy-1666816.jpg&fm=jpg' />
-       </div>
-         <div className='flex z-10 absolute bottom-50 left-0 p-4 justify-between items-center'>
-             <svg fill="#000000" height="100px" width="100px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 297 297" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M290.435,177.678c-5.871-2.259-10.511-6.668-13.065-12.414c-2.554-5.748-2.717-12.145-0.46-18.016 c0.863-2.243,0.902-4.707,0.136-6.965c-5.756,2.543-9.787,8.297-9.787,14.983c0,9.597-7.807,17.404-17.404,17.404h-55.331 c-0.113,0.642-0.286,1.283-0.53,1.914c-1.556,4.074-5.436,6.573-9.552,6.573c-1.218,0-2.467-0.225-3.675-0.686 c-3.478-1.338-5.8-4.376-6.4-7.8H47.146c-9.597,0-17.404-7.807-17.404-17.404c0-9.032-7.348-16.381-16.381-16.381 c-2.818,0-5.473-0.688-7.831-1.882l-4.845,12.596c-2.031,5.277,0.603,11.201,5.88,13.23c12.117,4.661,18.185,18.312,13.524,30.431 c-2.03,5.278,0.604,11.201,5.881,13.23l189.197,72.768c1.209,0.465,2.45,0.686,3.673,0.686c4.113,0,7.992-2.497,9.557-6.566 c3.475-9.034,12.31-15.104,21.985-15.104c2.881,0,5.723,0.532,8.446,1.579c2.534,0.975,5.352,0.903,7.833-0.2 s4.423-3.145,5.397-5.68l24.256-63.066C298.345,185.632,295.712,179.708,290.435,177.678z M174.153,226.183 c-1.567,4.074-5.447,6.573-9.562,6.573c-1.219,0-2.457-0.226-3.675-0.686c-5.273-2.028-7.903-7.955-5.877-13.228 c2.028-5.282,7.955-7.913,13.227-5.887C173.549,214.992,176.18,220.91,174.153,226.183z M184.073,200.383 c-1.567,4.074-5.437,6.573-9.552,6.573c-1.229,0-2.467-0.225-3.675-0.686c-5.283-2.028-7.914-7.955-5.877-13.227 c2.027-5.283,7.944-7.914,13.227-5.887C183.47,189.183,186.1,195.111,184.073,200.383z M236.888,204.249 c-1.565,4.068-5.445,6.566-9.558,6.566c-1.223,0-2.464-0.22-3.673-0.685l-15.767-6.064c-5.277-2.031-7.91-7.953-5.881-13.231 c2.031-5.278,7.957-7.909,13.231-5.881l15.767,6.064C236.284,193.048,238.918,198.971,236.888,204.249z"></path> <path d="M13.361,124.553c16.935,0,30.713,13.778,30.713,30.713c0,1.694,1.378,3.071,3.071,3.071h202.709 c1.694,0,3.071-1.378,3.071-3.071c0-16.935,13.778-30.713,30.713-30.713c1.694,0,3.071-1.378,3.071-3.071v-67.57 c0-1.694-1.378-3.071-3.071-3.071c-16.935,0-30.713-13.778-30.713-30.713c0-1.694-1.378-3.071-3.071-3.071H47.146 c-1.694,0-3.071,1.378-3.071,3.071c0,16.935-13.778,30.713-30.713,30.713c-1.694,0-3.071,1.378-3.071,3.071v67.57 C10.289,123.175,11.667,124.553,13.361,124.553z M216.07,77.459h16.892c5.654,0,10.238,4.584,10.238,10.238 c0,5.654-4.584,10.238-10.238,10.238H216.07c-5.654,0-10.238-4.584-10.238-10.238C205.832,82.043,210.416,77.459,216.07,77.459z M182.282,22.972c5.661,0,10.238,4.586,10.238,10.238c0,5.651-4.577,10.238-10.238,10.238c-5.652,0-10.238-4.587-10.238-10.238 C172.044,27.558,176.63,22.972,182.282,22.972z M182.282,50.614c5.661,0,10.238,4.586,10.238,10.238 c0,5.651-4.577,10.238-10.238,10.238c-5.652,0-10.238-4.587-10.238-10.238C172.044,55.2,176.63,50.614,182.282,50.614z M182.282,78.256c5.661,0,10.238,4.586,10.238,10.238c0,5.651-4.577,10.238-10.238,10.238c-5.652,0-10.238-4.587-10.238-10.238 C172.044,82.842,176.63,78.256,182.282,78.256z M182.282,105.899c5.661,0,10.238,4.586,10.238,10.238 c0,5.651-4.577,10.238-10.238,10.238c-5.652,0-10.238-4.587-10.238-10.238C172.044,110.485,176.63,105.899,182.282,105.899z M182.282,133.541c5.661,0,10.238,4.586,10.238,10.238c0,5.651-4.577,10.238-10.238,10.238c-5.652,0-10.238-4.587-10.238-10.238 C172.044,138.127,176.63,133.541,182.282,133.541z"></path> </g> </g></svg>
-             <p className='text-2xl font-extrabold '>GetTickgets</p>  
-         </div>
-          <div className='flex gap-10 pt-11 pr-4 text-2xl absolute justify-center font-semibold inset-x-0 top-0 '>    
-            <a>SCHEDULE</a>
-            <a>TICKET</a>
-            <a>UPCOMING</a>
-            <a>CONTACT</a>
+  <div>
+   <header className='flex static'>
+      <div className='max-w-full contrast-50 bg-no-repeat bg-center bg-fixed'>
+        <img src ='https://www.lotto-arena.be/_next/image?url=https%3A%2F%2Fd1j1njp7xgak1b.cloudfront.net%2Fa0W7Q000005ISWKUA4_original.jpg&w=3840&q=75' />
+      </div>
+      <div className='flex  bg-blue-700 text-white absolute inset-x-0 top-10 p-4 justify-start'>
+          <p className='text-4xl font-extrabold italic '>tickgetmaster</p>
+        <div className='flex gap-8 font-semibold text-l pt-2'>
+          <a href='' className='hover:underline py-2 pl-4'>Concerts</a>
+          <a href='' className='hover:underline py-2'>Sports</a>
+          <a href='' className='hover:underline py-2'>Art, Theater & Comedy</a>
+          <a href='' className='hover:underline py-2'>Family</a>
+        </div> 
+      </div>
+      <div className='flex text-white pt-6 absolute inset-x-0 top-10 p-4 justify-end'>
+           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+           <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+           </svg>
+             <a href='' className='hover:underline'>Sign In/Register</a>
         </div>
-        <div className='absolute inset-y-80 right-20 flex '>
-          <span className='text-5xl  text-center'>Look no further! Our The Show tickets are the simplest way for you to experience.</span>
+      <div className='flex justify-center z-10 bg-blue-700 text-white absolute inset-x-0 top-28 p-4'>
+        <div className='flex p-2 bg-white rounded-md'>
+           <div className='flex'>
+               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 pt-2  text-black">
+               <path strokeLinecap="round" strokeLinejoin="round" d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5" />
+               </svg>
+               <input placeholder='City or Zipcode'></input>
+           </div>
+           <input placeholder='MM/DD/YYYY' inputMode='numeric' type='date' className='text-black px-4'></input>
+           <div className='flex rounded-md ' >
+              <span className='bg-white pt-2 pl-4'>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 text-black">
+              <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+              </svg>
+              </span>
+              <input placeholder='Search by Artist, Event or Venue' className='w-full'></input>
+                   <button className='font-semibold rounded-md p-2 bg-blue-700 text-white hover:bg-blue-400'>Search</button>
+            </div>
+           
         </div>
-        <div className='absolute inset-y-80 right-80 h8 flex' >
-          <button className=' rounded-full'>Buy Tickget</button>
+      </div>
+      <div className='flex gap-5 p-2 bg-black text-white pr-4 text-l absolute justify-end  inset-x-0 top-0 '>    
+        <div className='flex gap-1'>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+          <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Z" />
+          </svg>
+             <p>Hotels</p>
         </div>
-     </header>
-    </div>
+          <p>Sell</p>
+        <div className='flex gap-1'>
+         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+         <path strokeLinecap="round" strokeLinejoin="round" d="M21 11.25v8.25a1.5 1.5 0 0 1-1.5 1.5H5.25a1.5 1.5 0 0 1-1.5-1.5v-8.25M12 4.875A2.625 2.625 0 1 0 9.375 7.5H12m0-2.625V7.5m0-2.625A2.625 2.625 0 1 1 14.625 7.5H12m0 0V21m-8.625-9.75h18c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125h-18c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125Z" />
+         </svg>
+            <p>Gift Cards</p>
+        </div>
+          <p>Help</p>
+      </div>
+      <div className='absolute flex flex-col justify-end text-white inset-y-60 left-44 gap-2'>
+         <p className='text-5xl font-semibold '>Nothing but Thieves</p>
+         <p className='text-xl font-semibold'>World</p>
+        <div className='' >
+           <button className='font-semibold rounded-md p-4 bg-blue-700 text-white hover:bg-blue-400'>Find Tickgets</button>
+        </div>
+      </div>
+
+  </header>
+</div>
+
   )
 }
+   
 
-export default App
