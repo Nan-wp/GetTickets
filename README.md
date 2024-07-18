@@ -1,5 +1,5 @@
 # React + Vite
-ิิ
+
 can run by using command "npm run dev"
 
 
